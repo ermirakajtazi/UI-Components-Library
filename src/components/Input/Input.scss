@@ -1,0 +1,76 @@
+.input {
+  width: 100%;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 2px;
+
+  &--default {
+    border: 1px solid gray;
+    &:focus {
+      outline: none;
+    }
+    &textarea:focus {
+      outline: none;
+    }
+    &select:focus {
+      outline: none;
+    }
+  }
+  &--disabled {
+    border-color: lightgray;
+    &:focus {
+      outline: none;
+    }
+    &textarea:focus {
+      outline: none;
+    }
+    &select:focus {
+      outline: none;
+    }
+  }
+
+  &--focused {
+  }
+
+  &--sm {
+    padding: 5px 16px;
+  }
+  &--md {
+    padding: 5px 18px;
+  }
+
+  &--lg {
+    padding: 5px 24px;
+  }
+
+  &--xl {
+    padding: 5px 32px;
+  }
+
+  &--2xl {
+    padding: 5px 68px;
+  }
+}
+
+input::-webkit-input-placeholder {
+  /* Edge */
+  //   @apply text-secondary;
+}
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  //   @apply text-secondary;
+}
+
+input::placeholder {
+  //   @apply text-secondary;
+}
+
+// remove autofill color
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  box-shadow: 0 0 0 30px white inset !important;
+}

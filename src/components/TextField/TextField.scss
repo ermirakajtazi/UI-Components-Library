@@ -1,0 +1,87 @@
+.textFieldContainer {
+  display: flex;
+  flex-direction: column;
+}
+::placeholder {
+  color: #36454f;
+  font-weight: 500;
+}
+.textField {
+  border: 1px solid #e5e7eb;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #36454f;
+  font-weight: 500;
+  &--phoneNumber {
+    border-top: 1px solid #e5e7eb;
+    border-right: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  &--default {
+    border: 1px solid #e5e7eb;
+    &:focus {
+      outline: none;
+    }
+    &textarea:focus {
+      outline: none;
+    }
+    &select:focus {
+      outline: none;
+    }
+  }
+  &--disabled {
+    border-color: lightgray;
+    &:focus {
+      outline: none;
+    }
+    &textarea:focus {
+      outline: none;
+    }
+    &select:focus {
+      outline: none;
+    }
+  }
+
+  &--sm {
+    width: 200px;
+  }
+
+  &--lg {
+    width: 100%;
+  }
+}
+.label {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+.errorMessage {
+  color: #880808;
+  font-size: 13px;
+  padding-top: 5px;
+}
+input::-webkit-input-placeholder {
+  /* Edge */
+  //   @apply text-secondary;
+}
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  //   @apply text-secondary;
+}
+
+input::placeholder {
+  //   @apply text-secondary;
+}
+
+// remove autofill color
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  box-shadow: 0 0 0 30px white inset !important;
+}

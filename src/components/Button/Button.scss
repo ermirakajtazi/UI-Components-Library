@@ -1,0 +1,114 @@
+.btn {
+  @apply flex justify-center items-center font-bold text-sm leading-4;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 16px;
+  .both {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .left {
+    margin-right: 8px;
+  }
+
+  .right {
+    margin-left: 8px;
+  }
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &--primary {
+    background-color: #1bd7bb;
+  }
+
+  &--primaryLienar {
+    background-image: linear-gradient(to right, #1bd7bb, #7fb0d7);
+    background-color: #1bd7bb;
+  }
+
+  &--disabled {
+    background-color: gray;
+    color: rgb(44, 35, 35);
+  }
+
+  &--white {
+    background-color: white;
+    color: rgb(44, 39, 39);
+  }
+
+  &--blue {
+    background-color: #00a3ff;
+  }
+
+  &--yellow {
+    background-color: #f2c94c;
+  }
+
+  &--red {
+    background-color: #f54029;
+  }
+  &--outlinedTransparent {
+    background-color: transparent;
+    border: 1px solid #1bd7bb;
+    color: #1bd7bb;
+    font-weight: 600;
+  }
+  &--outlinedTransparent:hover {
+    background-color: transparent;
+    border: 1px solid #1bd7bb;
+    color: #1bd7bb;
+    font-weight: 600;
+  }
+  &--transparentBackground {
+    background-color: transparent;
+    color: #1bd7bb;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  &--grayBackground {
+    background-color: #3c3c43;
+    opacity: 0.3;
+  }
+  &--xs {
+    padding: 12px;
+  }
+
+  &--sm {
+    padding: 10px 16px;
+  }
+
+  &--xm {
+    padding: 12.5px 16px;
+  }
+
+  &--md {
+    padding: 12px 18px;
+  }
+
+  &--lg {
+    padding: 12.5px 24px;
+    font-size: 16px;
+  }
+
+  &--xl {
+    padding: 10.5px 32px;
+    font-size: 16px;
+  }
+
+  &--2xl {
+    padding: 12px 68px;
+    font-size: 16px;
+  }
+  &--fullWidth {
+    padding: 10px 16px;
+    width: 100%;
+  }
+}
+
+.btn:focus {
+  @apply outline-none;
+}

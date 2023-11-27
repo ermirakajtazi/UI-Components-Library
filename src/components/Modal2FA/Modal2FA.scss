@@ -1,0 +1,26 @@
+.modal-2fa {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 50;
+}
+.modal-container-2fa {
+  position: relative;
+  width: 100%;
+  margin-top: 24px;
+  background-color: #353332;
+}
+.modal-content-2fa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title-2fa {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  padding: none;
+}

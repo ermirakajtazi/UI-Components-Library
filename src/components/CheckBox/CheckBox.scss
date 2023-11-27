@@ -1,0 +1,40 @@
+.container {
+  @apply flex;
+}
+.lable {
+  display: flex;
+  align-items: center;
+}
+.labelText{
+    margin-right: 8px;
+    font-size: 16px;
+}
+.inputContainer{
+    position: relative;
+}
+// input[type="checkbox"]:focus {
+//   outline: 1px solid rgba(0, 0, 0, 0.2);
+// }
+
+// input[type="checkbox"] {
+//   background-color: #ddd;
+//   border-radius: 2px;
+//   appearance: none;
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+//   width: 20px;
+//   height: 20px;
+//   cursor: pointer;
+//   position: relative;
+//   top: 5px;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// input[type="checkbox"]:checked {
+//   background-color: #1bd7bb;
+//   background: #1bd7bb
+//     url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==")
+//     5px 5px no-repeat;
+//   justify-self: center;
+// }
