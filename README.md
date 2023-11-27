@@ -64,7 +64,6 @@ const MyComponent = () => {
 To explore and test the components, run Storybook locally:
 
 ```bash
-Copy code
 npm run storybook
 ```
 Visit http://localhost:6006 to access the Storybook environment and view the documentation and examples.
