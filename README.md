@@ -9,7 +9,7 @@ This UI Components Library is a collection of reusable and customizable user int
 - **Typescript:** Provides type safety and enhanced code quality.
 - **SCSS:** is a popular CSS preprocessor that allows for more maintainable and modular styles
 
-## Building the Library
+# Building the Library
 To build the library locally, follow these steps:
 
 Clone the repository:
@@ -22,12 +22,12 @@ Navigate to the project directory:
 ```bash
 cd ui-components-library
 ```
-# Install dependencies:
+## Install dependencies:
 
 ```bash
 npm install
 ```
-# Build the library:
+## Build the library:
 
 ```bash
 npm run build
